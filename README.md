@@ -3,7 +3,7 @@
 ## Demonstration
 <img src="./assets/demonstration.png">
 
-Para visualizar o app [clica aqui](https://douglassantos-code.github.io/Clone-app-ClubHouse/).
+Para visualizar o projeto funcionando [clica aqui](https://douglassantos-code.github.io/quadro-cores/).
 
 ## Techs
 
@@ -22,4 +22,4 @@ Encontre-me em [![Gmail Badge](https://img.shields.io/badge/gmail-rgb(29,58,95)?
 
 <br>
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/DouglasSantos-code/Clone-app-ClubHouse/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/DouglasSantos-code/quadro-cores/blob/main/LICENSE) para mais detalhes.
