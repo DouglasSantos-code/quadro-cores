@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(128, 125, 125), rgb(173, 177, 173), rgb(128, 125, 125));
+}
+
+table,
+input {
+    background-color: rgb(56, 56, 56);
+    box-sizing: border-box;
+    color: rgb(211, 210, 210);
+
+}
+
+table {
+    width: 800px;
+    box-shadow: 2px 2px 15px 0px rgb(0, 0, 0);
+
+
+}
+
+input {
+
+    font-weight: bold;
+    width: 100%;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 40vw;
+
+}
+
+
+.rangeRed {
+    -webkit-appearance: none;
+    width: 90%;
+    margin: 5%;
+    height: 17px;
+    border-radius: 50px;
+    background: #912323;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+
+}
+
+.rangeRed::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+}
+
+.rangeRed::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+}
+
+.rangeGreen {
+    -webkit-appearance: none;
+    width: 90%;
+    margin: 5%;
+    height: 17px;
+    border-radius: 50px;
+    background: rgb(13, 71, 13);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+
+.rangeGreen::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: green;
+    cursor: pointer;
+}
+
+.rangeGreen::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: green;
+    cursor: pointer;
+}
+
+.rangeBlue {
+    -webkit-appearance: none;
+    width: 90%;
+    margin: 5%;
+    height: 17px;
+    border-radius: 50px;
+    background: rgb(11, 11, 109);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+
+.rangeBlue::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: blue;
+    cursor: pointer;
+}
+
+.rangeBlue::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: blue;
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+    margin: 3%;
+}

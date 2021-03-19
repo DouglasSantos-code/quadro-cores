@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrado de cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> QUADRO DE CORES </h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>( <span style="color: red;">R</span> ) Vermelho</th>
+                    <th>( <span style="color: green;">G</span> ) Verde</th>
+                    <th>( <span style="color: blue;">B</span> ) Azul</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input class="rangeRed" type="range" id="inputRed" volue="130" min="0" max="255" step="1">
+                    </td>
+                    <td>
+                        <input class="rangeGreen" type="range" id="inputGreen" volue="130" min="0" max="255" step="1">
+                    </td>
+                    <td>
+                        <input class="rangeBlue" type="range" id="inputBlue" volue="130" min="0" max="255" step="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="resultRed" style="text-align: center;" readonly>
+                    </td>
+                    <td>
+                        <input type="text" id="resultGreen" style="text-align: center;" readonly>
+                    </td>
+                    <td>
+                        <input type="text" id="resultBlue" style="text-align: center;" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div class="content"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
